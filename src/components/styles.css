@@ -1,0 +1,16 @@
+.character:hover .img-character{
+    transform: scale(1.2);
+}
+.character:hover .character-name{
+    transform: translate(0px, -30px);
+}
+.character:hover .character-status{
+    transform: translate(0px, -25px);
+}
+.character:hover .character-origin{
+    transform: translate(0px, 30px);
+}
+
+.img-character, .character-status, .character-name, .character-origin{
+    transition: transform 0.5s;
+}
